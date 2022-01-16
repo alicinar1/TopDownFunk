@@ -17,6 +17,5 @@ namespace TopDownFunk.PlayerController
             direction.Normalize();
             _player.Move(direction * _playerMovementSettings.playerMovementSpeed *Time.fixedDeltaTime);
         }
-
     }
 }

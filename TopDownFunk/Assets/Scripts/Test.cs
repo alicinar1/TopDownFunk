@@ -2,16 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TopDownFunk.PlayerInput;
+using TopDownFunk.Manager;
+using TopDownFunk.Bullets;
 
 public class Test : MonoBehaviour
 {
-    [SerializeField] private AbstractInputData abstractInput;
-
-    private void Update()
+    private void Start()
     {
-        if (abstractInput.Horizontal == 1)
-        {
-            Debug.Log("Falanfilan");
-        }
+        Debug.Log(ScriptableBulletManager.Instance.name);
     }
 }
+
