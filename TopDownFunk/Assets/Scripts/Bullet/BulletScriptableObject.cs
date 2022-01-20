@@ -13,13 +13,11 @@ namespace TopDownFunk.Bullets
         [SerializeField] public string bulletTag;
         [SerializeField] public string bulletType;
         [SerializeField] public Material bulletMaterial;
-        [SerializeField] public int bulletPerShot;
-        [SerializeField] public int bulletPerMagazine;
-        [SerializeField] public float reloadTime;
-        [SerializeField] public float bulletSpeedRate;
-        [SerializeField] public float bulletInaccuracyRate;
-        [SerializeField] public float bulletDamageRate;
-        [SerializeField] public float bulletFireRate;
+        [SerializeField] public Color color;
+        
+
+        [SerializeField]private BulletStats _stats;
+        public BulletStats bulletStats => _stats;
         #endregion
 
 

@@ -8,6 +8,7 @@ namespace TopDownFunk.PlayerInput
     {
         public float Horizontal;
         public float Vertical;
+        public Vector3 MousePosition;
 
         public abstract void ProcessInput();
     }

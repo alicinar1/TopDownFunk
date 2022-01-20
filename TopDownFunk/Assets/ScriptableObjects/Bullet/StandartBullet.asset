@@ -16,10 +16,13 @@ MonoBehaviour:
   bulletTag: Bullet
   bulletType: Standart Bullet
   bulletMaterial: {fileID: 0}
-  bulletPerShot: 1
-  bulletPerMagazine: 12
-  reloadTime: 0.5
-  bulletSpeedRate: 1
-  bulletInaccuracyRate: 0.98
-  bulletDamageRate: 10
-  bulletFireRate: 0.2
+  color: {r: 0, g: 0, b: 0, a: 0}
+  _stats:
+    Speed: 5
+    Damage: 10
+    bulletPerShot: 1
+    bulletPerMagazine: 12
+    reloadTime: 0.5
+    bulletInaccuracyRate: 0.95
+    bulletFireRate: 1
+    armorPenentration: 1.1

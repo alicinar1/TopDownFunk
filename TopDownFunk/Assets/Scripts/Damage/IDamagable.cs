@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TopDownFunk.Statics;
 
 namespace TopDownFunk.Damage
 {
@@ -11,6 +12,7 @@ namespace TopDownFunk.Damage
         public  static void InitializeDamageble(this IDamagable damagable)
         {
             DamagableList.Add(damagable.InstanceID, damagable);
+            
         }
 
         public static void DestroyDamageble(this IDamagable damagable)
@@ -23,5 +25,6 @@ namespace TopDownFunk.Damage
     {
         int InstanceID { get; }
         void Damage();
+        abstract void DestroyObject();
     }
 }

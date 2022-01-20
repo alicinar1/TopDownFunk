@@ -17,7 +17,7 @@ namespace TopDownFunk.PlayerController
         {
             if (_shootingInput.Horizontal > 0)
             {
-                if (Time.time - _bulletTimer > BulletObjectPool.Instance.GetSampleBullet().BulletFireRate)
+                if (Time.time - _bulletTimer > BulletObjectPool.Instance.GetSampleBullet().BulletStat.bulletFireRate)
                 {
                     ScriptableShootingManager.Instance.Shoot(gunBarrel, BulletObjectPool.Instance.GetSampleBullet());
                     _bulletTimer = 0;

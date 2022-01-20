@@ -16,10 +16,13 @@ MonoBehaviour:
   bulletTag: Bullet
   bulletType: Machine Gun
   bulletMaterial: {fileID: 0}
-  bulletPerShot: 1
-  bulletPerMagazine: 20
-  reloadTime: 0.8
-  bulletSpeedRate: 10
-  bulletInaccuracyRate: 0.85
-  bulletDamageRate: 20
-  bulletFireRate: 0.2
+  color: {r: 0, g: 0, b: 0, a: 0}
+  _stats:
+    bulletPerShot: 1
+    bulletPerMagazine: 20
+    reloadTime: 0.8
+    bulletSpeedRate: 5
+    bulletInaccuracyRate: 0.95
+    bulletDamageRate: 10
+    bulletFireRate: 0.5
+    armorPenentration: 1.3

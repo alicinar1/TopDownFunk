@@ -12,9 +12,10 @@ namespace TopDownFunk.Collectable
         public static event Action<AbstractBulletMono> OnBulletChange;
         public override void OnTriggerEnter(Collider other)
         {
+            Debug.Log("Hellö");
             base.OnTriggerEnter(other);
             OnBulletChange?.Invoke(bullet);
-            Destroy(this);
+            Destroy(this.gameObject);
         }
     }
 }
