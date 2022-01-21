@@ -16,12 +16,13 @@ MonoBehaviour:
   bulletTag: Bullet
   bulletType: ShotGun
   bulletMaterial: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
   _stats:
+    Speed: 0.5
+    Damage: 30
     bulletPerShot: 3
     bulletPerMagazine: 2
     reloadTime: 1
-    bulletSpeedRate: 5
     bulletInaccuracyRate: 1.5
-    bulletDamageRate: 100
     bulletFireRate: 0.5
     armorPenentration: 3
