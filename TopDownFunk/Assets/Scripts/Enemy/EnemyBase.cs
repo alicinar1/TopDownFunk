@@ -23,7 +23,7 @@ namespace TopDownFunk.Enemy
 
         private void OnEnable()
         {
-            _enemy.speed = stats.enemyMovementSpeed;
+            _enemy.speed = stats.MovementSpeed;
         }
 
         private void Update()

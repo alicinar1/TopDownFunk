@@ -15,9 +15,10 @@ MonoBehaviour:
   EnemyName: EnemyDefault
   EnemyType: Enemy
   EnemyTag: Enemy
-  stats:
-    enemyHealth: 100
+  generalStats:
+    Health: 100
+    Armor: 50
+    MovementSpeed: 5
+  enemyStats:
     enemyArmorPenentration: 1
-    enemyMovementSpeed: 10
     enemyDamage: 10
-    enemyArmor: 50

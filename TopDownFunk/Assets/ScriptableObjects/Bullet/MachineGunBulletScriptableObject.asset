@@ -18,11 +18,11 @@ MonoBehaviour:
   bulletMaterial: {fileID: 0}
   color: {r: 0, g: 0, b: 0, a: 0}
   _stats:
-    Speed: 0.5
+    Speed: 0.3
     Damage: 10
     bulletPerShot: 1
     bulletPerMagazine: 20
     reloadTime: 0.8
     bulletInaccuracyRate: 0.95
-    bulletFireRate: 0.5
+    bulletFireRate: 0.3
     armorPenentration: 1.3

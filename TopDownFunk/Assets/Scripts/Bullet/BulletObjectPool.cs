@@ -19,7 +19,7 @@ namespace TopDownFunk.Bullets
                 var obj = Instantiate(bullet, Vector3.zero, Quaternion.identity, this.transform);
                 obj.gameObject.SetActive(false);
                 objectQueue.Enqueue(obj);
-                Debug.Log(i);
+                //Debug.Log(i);
             }
         }
 

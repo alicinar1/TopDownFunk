@@ -6,6 +6,9 @@ namespace TopDownFunk.Bullets
 {
     public class Bullet : AbstractBulletMono
     {
-        
+        private void OnCollisionEnter(Collision collision)
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 }

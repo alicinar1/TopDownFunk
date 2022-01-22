@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ce34ed5ed22d7440bea0aee55f0cdfc, type: 3}
   m_Name: Player Scriptable Object
   m_EditorClassIdentifier: 
-  stats:
-    PlayerHealth: 100
-    PlayerSpeed: 10
-    PlayerArmor: 100
+  generalStats:
+    Health: 100
+    Armor: 100
+    MovementSpeed: 5

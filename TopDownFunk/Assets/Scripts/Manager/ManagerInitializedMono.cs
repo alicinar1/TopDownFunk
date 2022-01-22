@@ -22,7 +22,7 @@ namespace TopDownFunk
                 //Debug.Log(instantiated.GetType());
                 instantiated.InitializeManager();
                 _initializedManagers.Add(instantiated);
-                Debug.Log(_initializedManagers.Count);
+                //Debug.Log(_initializedManagers.Count);
                 //Debug.Log(instantiated.name + "initialized");
             }
         }

@@ -8,7 +8,8 @@ namespace TopDownFunk.Statics
     [Serializable]
     public struct Stats
     {
-        public float Speed;
-        public float Damage;
+        public float Health;
+        public float Armor;
+        public float MovementSpeed;
     }
 }

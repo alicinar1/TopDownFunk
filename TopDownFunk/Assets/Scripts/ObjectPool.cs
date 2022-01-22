@@ -24,7 +24,7 @@ namespace TopDownFunk
                 var obj = Instantiate(gameObjectArray[Random.Range(0, gameObjectArray.Length)], Vector3.zero, Quaternion.identity, this.transform);
                 obj.gameObject.SetActive(false);
                 objectQueue.Enqueue(obj);
-                Debug.Log(i);
+                //Debug.Log(i);
             }
         }
 

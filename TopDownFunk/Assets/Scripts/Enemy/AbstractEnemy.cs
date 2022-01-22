@@ -4,6 +4,8 @@ using UnityEngine;
 using TopDownFunk.Damage;
 using TopDownFunk.Bullets;
 using System;
+using TopDownFunk.Statics;
+using TopDownFunk.UI;
 
 namespace TopDownFunk.Enemy
 {
@@ -14,7 +16,11 @@ namespace TopDownFunk.Enemy
         [SerializeField] protected string EnemyName;
         [SerializeField] protected string EnemyType;
         [SerializeField] protected string EnemyTag;
-        public EnemyStats stats;
+        [SerializeField] protected HealtBarController healtBarController; 
+        public Stats stats;
+        public EnemyStats enemyStats;
+
+        public static event Action<Stats> OnDamageTake;
 
         public EnemyScriptableObject Enemy { get { return _enemyScriptableObject; } }
 
@@ -22,22 +28,24 @@ namespace TopDownFunk.Enemy
         private void Awake()
         {
             SetEnemy();
-          
+            healtBarController.SetHealthBar(stats);
         }
 
         public override void Damage(BulletStats bullet)
         {
             base.Damage(bullet);
-            if (stats.enemyArmor > 0)
+            if (stats.Armor > 0)
             {
-                stats.enemyArmor -= bullet.armorPenentration * bullet.Damage;
+                stats.Armor -= bullet.armorPenentration * bullet.Damage;
             }
             else
             {
-                stats.enemyHealth -= bullet.Damage;
+                stats.Health -= bullet.Damage;
             }
 
-            if (stats.enemyHealth <= 0)
+            healtBarController.SetHealthBar(stats);
+
+            if (stats.Health <= 0)
             {
                 DestroyObject();
             }                  
@@ -61,7 +69,8 @@ namespace TopDownFunk.Enemy
 
         protected void SetEnemyStats()
         {
-            stats = _enemyScriptableObject.stats;
+            stats = _enemyScriptableObject.generalStats;
+            enemyStats = _enemyScriptableObject.enemyStats;
         }
     }
 }

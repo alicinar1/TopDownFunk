@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TopDownFunk.Statics;
 
 namespace TopDownFunk.Enemy
 {
@@ -11,7 +12,8 @@ namespace TopDownFunk.Enemy
         public string EnemyName;
         public string EnemyType;
         public string EnemyTag;
-        public EnemyStats stats;
+        public Stats generalStats;
+        public EnemyStats enemyStats;
     }
 }
 

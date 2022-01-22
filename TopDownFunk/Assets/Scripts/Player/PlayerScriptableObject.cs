@@ -9,6 +9,7 @@ namespace TopDownFunk.PlayerController
     public class PlayerScriptableObject : ScriptableObject
     {
         public PlayerStats stats;
+        public Stats generalStats;
     }
 }
 

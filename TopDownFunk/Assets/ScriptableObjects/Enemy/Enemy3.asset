@@ -15,9 +15,10 @@ MonoBehaviour:
   EnemyName: Enemy3
   EnemyType: Enemy
   EnemyTag: Enemy
-  stats:
-    enemyHealth: 50
-    enemyArmorPenentration: 3
-    enemyMovementSpeed: 15
-    enemyDamage: 50
-    enemyArmor: 50
+  generalStats:
+    Health: 100
+    Armor: 100
+    MovementSpeed: 5
+  enemyStats:
+    enemyArmorPenentration: 1
+    enemyDamage: 10

@@ -3,24 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using TopDownFunk.Damage;
 using TopDownFunk.Enemy;
+using TopDownFunk.Statics;
+using TopDownFunk.UI;
+using System;
 
 namespace TopDownFunk.PlayerController
 {
     public class Player : DamagebleObjectBase
     {
         [SerializeField] private PlayerScriptableObject _playerScriptableObject;
-        public PlayerStats stats;
+        [SerializeField] private HealtBarController _healtBar;
+        public Stats stats;
+
+        public static event Action<Stats> OnDamageTake;
 
         private void Start()
         {
-            stats = _playerScriptableObject.stats;
+            stats = _playerScriptableObject.generalStats;
+            _healtBar.SetHealthBar(stats);
         }
 
         private void OnCollisionEnter(Collision collision)
         {
             if (collision.collider.CompareTag("Enemy"))
             {
-                Damage(collision.collider.GetComponent<AbstractEnemy>().stats);
+                Damage(collision.collider.GetComponent<AbstractEnemy>().enemyStats);
             }
             
         }
@@ -29,20 +36,22 @@ namespace TopDownFunk.PlayerController
         {
             base.Damage(enemyStats);
 
-            if (stats.PlayerArmor > 0)
+            if (stats.Armor > 0)
             {
-                stats.PlayerArmor -= enemyStats.enemyDamage * enemyStats.enemyArmorPenentration;
+                stats.Armor -= enemyStats.enemyDamage * enemyStats.enemyArmorPenentration;                
             }
             else
             {
-                stats.PlayerHealth -= enemyStats.enemyDamage;
+                stats.Health -= enemyStats.enemyDamage;
             }
 
-            if (stats.PlayerHealth <= 0)
+            _healtBar.SetHealthBar(stats);
+
+            if (stats.Health <= 0)
             {
                 DestroyObject();
             }
-            Debug.Log(stats.PlayerHealth);
+            //Debug.Log(stats.Health);
         }
     }
 }

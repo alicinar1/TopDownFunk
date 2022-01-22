@@ -8,8 +8,6 @@ namespace TopDownFunk.PlayerController
     [Serializable]
     public struct PlayerStats
     {
-        public float PlayerHealth;
-        public float PlayerSpeed;
-        public float PlayerArmor;
+
     }
 }

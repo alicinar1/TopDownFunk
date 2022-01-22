@@ -10,7 +10,7 @@ namespace TopDownFunk.Manager
     {
         public void Shoot(Transform spawnPosition, AbstractBulletMono bullet)
         {
-            Debug.Log(bullet.BulletStat.bulletPerShot);
+            //Debug.Log(bullet.BulletStat.bulletPerShot);
             for (int i = 0; i < bullet.BulletStat.bulletPerShot; i++)
             {
                 GameObject[] bullets = new GameObject[bullet.BulletStat.bulletPerShot];
