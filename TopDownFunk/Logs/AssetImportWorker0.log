@@ -1,0 +1,378 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'tr' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/muham/Desktop/Unity/Projects/TopDownFunk/TopDownFunk
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50798
+Successfully changed project path to: C:/Users/muham/Desktop/Unity/Projects/TopDownFunk/TopDownFunk
+C:/Users/muham/Desktop/Unity/Projects/TopDownFunk/TopDownFunk
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 110.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/muham/Desktop/Unity/Projects/TopDownFunk/TopDownFunk/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5992 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004313 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 99.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.551 seconds
+Domain Reload Profiling:
+	ReloadAssembly (552ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006474 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\muham\Desktop\Unity\Projects\TopDownFunk\TopDownFunk\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\muham\Desktop\Unity\Projects\TopDownFunk\TopDownFunk\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.537 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1538ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1367ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (937ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (642ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5306 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.8 MB). Loaded Objects now: 5767.
+Memory consumption went from 216.2 MB to 215.4 MB.
+Total: 3.703200 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.149500 ms MarkObjects: 2.831800 ms  DeleteObjects: 0.296200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3138.342840 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Sombrero.fbx
+  artifactKey: Guid(f21e598b642265340a6cb0489b0fdbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Sombrero.fbx using Guid(f21e598b642265340a6cb0489b0fdbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6331685f6e85d0e6e8038a68e8941009') in 0.229605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hair_01.fbx
+  artifactKey: Guid(51bc98ee205fd8e4eba72d8f05a3cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hair_01.fbx using Guid(51bc98ee205fd8e4eba72d8f05a3cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99332457a2a69ae0d8e2373a593f93f3') in 0.042220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_02.fbx
+  artifactKey: Guid(689586323ca56064b81c39a8f4448a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_02.fbx using Guid(689586323ca56064b81c39a8f4448a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f6e91e1dd5fe5fe20063a417cf3be7') in 0.037487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_03.fbx
+  artifactKey: Guid(28bf5ed5633f90d428eb73d066935c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_03.fbx using Guid(28bf5ed5633f90d428eb73d066935c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50f911bfe83b62404f1bd8096bf6449') in 0.032150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/BackPack.fbx
+  artifactKey: Guid(2c5028c957fd7234482b21c9432bbc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/BackPack.fbx using Guid(2c5028c957fd7234482b21c9432bbc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f9f05b9731d24b35bb86afeb89d58a') in 0.021636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Cowboy.fbx
+  artifactKey: Guid(fdde7f8e174e8274c8bffff2eab70501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Cowboy.fbx using Guid(fdde7f8e174e8274c8bffff2eab70501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cff01df24f8af83a5e85b56854bdcbd') in 0.021247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Crown.fbx
+  artifactKey: Guid(98fcca0e9388e154b89f6bca7853ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Crown.fbx using Guid(98fcca0e9388e154b89f6bca7853ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3f8304a88489bcd33a1cef4b0d1abb') in 0.032203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Moustache.fbx
+  artifactKey: Guid(958e647d413df5d4a8d145a54fc597c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Moustache.fbx using Guid(958e647d413df5d4a8d145a54fc597c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe92c147af99222136d7974c843eb37d') in 0.035089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Bowtie.fbx
+  artifactKey: Guid(2d526b4bd87cc204098a80b0a9ed1fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Bowtie.fbx using Guid(2d526b4bd87cc204098a80b0a9ed1fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dddbcc930dbdf03833157902aea4c44') in 0.021826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hair_03.fbx
+  artifactKey: Guid(6bee0d6d506338643a3456d2d6d000a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hair_03.fbx using Guid(6bee0d6d506338643a3456d2d6d000a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61881d251b340087ca475298e475a17d') in 0.023219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Top.fbx
+  artifactKey: Guid(147a13137c667d546bf8574997308fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Top.fbx using Guid(147a13137c667d546bf8574997308fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6978ceb756228c66d79dc7905bb69e7e') in 0.029492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hair_02.fbx
+  artifactKey: Guid(972e0bd0f60782b4e911947cd9e6a2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hair_02.fbx using Guid(972e0bd0f60782b4e911947cd9e6a2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48537c912b61c2dcf9e40eeae0a4ba27') in 0.019580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters/Character_Boy.fbx
+  artifactKey: Guid(819e1ea1fc3376747aa615ca0114ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters/Character_Boy.fbx using Guid(819e1ea1fc3376747aa615ca0114ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1460f914a0f0d71b527c60b9f6155aeb') in 0.074696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Beanie.fbx
+  artifactKey: Guid(02409c006fd84404da6e0a6c08bc959d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Beanie.fbx using Guid(02409c006fd84404da6e0a6c08bc959d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228d1ccd4d528e6a7f749217247af945') in 0.023988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Witch.fbx
+  artifactKey: Guid(07a27b1968b91f745a99b1866b112191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Witch.fbx using Guid(07a27b1968b91f745a99b1866b112191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f56206fc27260b9d013771f1250da13') in 0.020361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters/Character_Man.fbx
+  artifactKey: Guid(34bea9670b1b546438039b18a354a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters/Character_Man.fbx using Guid(34bea9670b1b546438039b18a354a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b218d113b8930c6f5ca404f9365e871c') in 0.074473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hair_04.fbx
+  artifactKey: Guid(94a80889a1b53cd439185cb1620f2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hair_04.fbx using Guid(94a80889a1b53cd439185cb1620f2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fd8797f5dd804fc74e2d092caf3fed') in 0.019980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters/Character_Girl.fbx
+  artifactKey: Guid(30e080b1c102d90448330c8ec8452222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters/Character_Girl.fbx using Guid(30e080b1c102d90448330c8ec8452222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6108d52f2d3b8763d48693a3183be751') in 0.037159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Cap.fbx
+  artifactKey: Guid(de498bcd883b97347b925be0de77ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Hat_Cap.fbx using Guid(de498bcd883b97347b925be0de77ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1100750ceb786dc7db565ee6d886a39d') in 0.019911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters/Character_Woman.fbx
+  artifactKey: Guid(feb728a4b32e42e40b3eac458be9da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters/Character_Woman.fbx using Guid(feb728a4b32e42e40b3eac458be9da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f866f17d1dd4c4a7340f12f35eadfd6') in 0.063012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_05.fbx
+  artifactKey: Guid(e14ed302f6fa08740a22b6a97d304b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_05.fbx using Guid(e14ed302f6fa08740a22b6a97d304b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b80a24edcfb588ffd3f84883d17c0e') in 0.019960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_01.fbx
+  artifactKey: Guid(9df195089649d6b4199daa62f1188696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_01.fbx using Guid(9df195089649d6b4199daa62f1188696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3fd0c611599478ead930750ad8ee58') in 0.021882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Headphones.fbx
+  artifactKey: Guid(ee8613387c522d14b924a6bce708e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Headphones.fbx using Guid(ee8613387c522d14b924a6bce708e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825251eec4ea8843a7ddbf972e45b370') in 0.020497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_04.fbx
+  artifactKey: Guid(e243d735be022f144a95976c583ed54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Accessories/Glasses_04.fbx using Guid(e243d735be022f144a95976c583ed54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01964d2e386e8a8eb63d290bfe928ca8') in 0.018795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.361694 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games
+  artifactKey: Guid(6301a231b84ee7248ab988cdd5f76020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games using Guid(6301a231b84ee7248ab988cdd5f76020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a017fde3843b76bc20f9d40aec7f16') in 0.006984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.583567 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets
+  artifactKey: Guid(f7a07e6741e9b914b9f67f2f265ece68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets using Guid(f7a07e6741e9b914b9f67f2f265ece68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee80f990b39187bfbac451e1bfcbcfb') in 0.007142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.677045 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models
+  artifactKey: Guid(8455dbf5659879040805101663986ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models using Guid(8455dbf5659879040805101663986ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f097113df89b4c699a4d6a7d7baf3b8') in 0.007733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.139236 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters
+  artifactKey: Guid(90d7e8b0bcf49924a842087153469159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Models/Characters using Guid(90d7e8b0bcf49924a842087153469159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47c538c9f6536e2af0b706dbe82bd25') in 0.007402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.687868 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs
+  artifactKey: Guid(f32df802be7ed2b4a8c2eb4b22a5e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs using Guid(f32df802be7ed2b4a8c2eb4b22a5e506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030d3aa76ce4bde4f2396f1085ff4dae') in 0.007484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.957096 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters
+  artifactKey: Guid(d9f891a6e71409e4694580b49358d208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters using Guid(d9f891a6e71409e4694580b49358d208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c0f2d9f20e1d21c2f142994e09bc9d') in 0.002729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.114247 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Materials
+  artifactKey: Guid(3f13130e2a787e8428938ac836e804f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Materials using Guid(3f13130e2a787e8428938ac836e804f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5438c6ac6fd2e9a6baa5c41e2691b12') in 0.010099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.398396 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters/Boy.prefab
+  artifactKey: Guid(08dcf7dd3c0838b4b82122af4eb06e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters/Boy.prefab using Guid(08dcf7dd3c0838b4b82122af4eb06e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b490caaa76ebf23cefb4ad85b63fbd95') in 0.054938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.939541 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters/Girl.prefab
+  artifactKey: Guid(75c3a46c696ec2c4b8fe3370b83f927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters/Girl.prefab using Guid(75c3a46c696ec2c4b8fe3370b83f927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8485af065d5c3bf4c6abbed81634b068') in 0.025744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.745682 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters/Man.prefab
+  artifactKey: Guid(43c644ebce2c71a42b8a219fa17ad581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters/Man.prefab using Guid(43c644ebce2c71a42b8a219fa17ad581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7276377a0a35ebc673ef99556008953c') in 0.035384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.884691 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters/Woman.prefab
+  artifactKey: Guid(975726aaef6246c4c8b93e927d51a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Prefabs/Characters/Woman.prefab using Guid(975726aaef6246c4c8b93e927d51a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f866db7d439e20507468d2ee05d695e') in 0.024198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.306775 seconds.
+  path: Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Readme.txt
+  artifactKey: Guid(cae7291ae26ff8945a2e4c8bddcba01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Art/Homa Games/Homa Jam Art Assets/Readme.txt using Guid(cae7291ae26ff8945a2e4c8bddcba01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdcc5eac0790a4e9488e1018ca4966d') in 0.042406 seconds 
