@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Player Scriptable Object
   m_EditorClassIdentifier: 
   generalStats:
-    Health: 1000
-    Armor: 1000
+    Health: 100
+    Armor: 100
     MovementSpeed: 5
